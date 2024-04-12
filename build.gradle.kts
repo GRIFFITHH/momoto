@@ -18,6 +18,8 @@ dependencies {
     // 서블릿 API 종속성 추가
     implementation("jakarta.servlet:jakarta.servlet-api:5.0.0")
     // 다른 필요한 종속성들도 여기에 추가합니다.
+    implementation ("javax.servlet:javax.servlet-api:4.0.1")
+
 }
 
 tasks.test {
