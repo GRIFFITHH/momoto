@@ -23,9 +23,9 @@ public class CreateUserServlet extends HttpServlet {
         PreparedStatement pstmt = null;
 
         try {
-            String dbURL = "jdbc:mysql://localhost:3306/YourDatabase"; // 데이터베이스 접속 정보 수정 필요
-            String dbUser = "yourUsername"; // DB 사용자 이름
-            String dbPassword = "yourPassword"; // DB 비밀번호
+            String dbURL = "jdbc:mysql://172.17.0.2:3306/YourDatabase"; // 데이터베이스 접속 정보 수정 필요
+            String dbUser = "root"; // DB 사용자 이름
+            String dbPassword = "1234"; // DB 비밀번호
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             conn = DriverManager.getConnection(dbURL, dbUser, dbPassword);
