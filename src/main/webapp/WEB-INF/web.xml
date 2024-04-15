@@ -41,7 +41,7 @@
         <url-pattern>/DeleteUser</url-pattern>
     </servlet-mapping>
 
-    <!-- Welcome file list -->
+    <!-- Welcome to file list -->
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
         <!-- Add more welcome files if needed -->
